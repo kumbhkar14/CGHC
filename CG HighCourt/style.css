@@ -1,0 +1,253 @@
+*{
+    margin:0;
+     font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+/* styling of Header */
+header{
+    display: flex;
+}
+header div  h1{
+    padding: 25px 10px;
+    color:#14274e;
+    text-shadow: 1px 1px 5px;
+}
+/* Styling of Head Right */
+
+
+.headRight{
+    display: flex;
+    margin-left:350px;
+
+}
+.headRight a{
+    text-decoration:none;
+    padding:20px 10px;
+    float:left;
+    color:#14274e;
+}
+
+.headRight a:hover{
+    color:darkorange;
+}
+.headRight a h4:hover{
+  text-decoration: underline black;
+}
+/* styling of image of HC */
+.building img{
+    width:100%;
+    height:450px;
+    margin:0;
+}
+.building{background-color:lightcoral;}
+
+/* Styling of Navigation bar */
+
+.navbar{
+    overflow:hidden;
+    background-color:lightcoral;
+}
+.navbar a{
+    color: #14274e;
+    font-size: 16px;
+    text-decoration:none;
+    float:left;
+    padding:14px 16px;
+    text-align: left;
+}
+.subnav {float:left;}
+ .subnav .subnavbtn {
+    font-size:16px;
+    border:none;
+    background-color: lightcoral;
+    padding:14px 16px;
+    color:#14274e;
+ }
+.navbar a:hover , .subnavbtn:hover , .subnav:hover{
+    background-color:lightblue;
+}
+.subnav-content{
+    display:none;
+    position: absolute;
+    background-color:lightblue;
+}
+
+.subnav-content a{
+    color:black;
+    text-decoration:none;
+
+}
+.subnav-content a:hover{
+    color:rgb(255, 0, 0);
+}
+
+.subnav:hover .subnav-content{
+    display: block;
+}
+
+/* Styling of Link bar */
+.link{
+    background-color:lightcoral;
+    margin:0;
+    display: flex;
+}
+.link a{
+    text-decoration:none;
+    color: #14274e;
+    padding: 11px 8px;
+}
+
+.link h3{ padding:8px;}
+
+.link a:hover{color: white}
+
+/* Styling main content */
+
+.main {
+    display:flex;
+    height: auto;
+    margin:5px 0px;
+}
+
+.left{
+    border: 1px solid #14274e ;
+    background-image: linear-gradient(lightcoral,lightgoldenrodyellow,lightblue);
+    width: 25%;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.center{
+    border: 1px solid #14274e ;
+    background-image: linear-gradient(lightcoral,lightgoldenrodyellow,lightblue);
+    width: 50%;
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px;
+    
+    
+   
+    
+}
+
+.row1,.row2,.row3{
+    display:flex;
+    justify-content:space-around;
+    padding: 23px;
+    
+}
+.center a{
+    text-decoration:none;
+}
+
+
+.right{
+    border: 1px solid #14274e ;
+    background-image: linear-gradient(lightcoral,lightgoldenrodyellow,lightblue);
+    width: 25%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.main div{
+    margin: 0px 5px; 
+    
+}
+
+.head{
+   text-align: center;
+   background-color:#14274e ;
+   color:white; 
+   padding: 8px;
+} 
+
+.left div, .right div{
+   margin-top: 10px;
+}
+.left a, .right a{ 
+   margin: 15px 7px;
+   display:block;
+   text-decoration:none;
+   border-radius: 5px;
+}
+.left a:hover, .right a:hover{
+   color: rgb(255, 0, 0);
+}
+
+/* Styling of Center Element */
+.india{
+    border: 1px solid blue;
+    max-width: 120px;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.india h3{
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid blue;
+}
+.india img{
+    width: 100px;
+    padding: 10px;
+    height:110px;
+    text-align: center;
+    justify-self: start;
+}
+
+.row1 a:hover,.row2 a:hover,.row3 a:hover{
+    box-shadow: 0px 0px 10px red;
+}
+
+/* Styling of Footer */
+.footer{
+    background-color:lightblue;
+    width:100%;
+    color: black;
+    display:flex;
+    height: auto;
+}
+
+.footer div{
+    padding-top: 50px;
+    padding-bottom:15px;
+}
+.footer h2{ 
+    padding-left:20px ;
+    padding-bottom: 15px;
+}
+
+.footer a{ 
+    color:black;
+    text-decoration:none;
+    
+}
+
+.footer p{ 
+    padding: 5px 20px;
+}
+
+.clm1,.clm2,.clm3,.clm4{
+    width:25%;
+    border: 1px solid  white;
+    
+}
+.footer a:hover{
+   color: red;
+
+}
+
+.endLine{
+    background-color:lightblue;
+    text-align: center;
+}
+#hrLine{
+    color: black;
+    padding-top: 2px;
+    background-color:black;
+    margin-bottom: 15px;
+}
+
+.endLine2{
+    padding-bottom: 20px;
+}

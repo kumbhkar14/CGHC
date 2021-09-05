@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            margin:0;
+        }
+        .navbar{
+            overflow: hidden;
+            background-color:lightcoral;
+        }
+        .navbar a{
+            float:left;
+            font-size:16px;
+            color: black;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .subnav {
+            float:left;
+            /* overflow: hidden; */
+        }
+        .subnav .subnavbtn{
+            font-size: 16px;
+            border:none;
+            /* outline: none; */
+            color: black;
+            padding:14px 16px;
+            background-color:lightcoral ;
+            /* margin:0; */
+            
+        }
+        .navbar a:hover, .subnav:hover .subnavbtn{
+            background-color: lightblue;
+        }
+        .subnav-content{
+            display:none;
+            position:absolute;
+            /* left: 0; */
+            /* width: 50px; */
+            /* z-index: 1; */
+        }
+        .subnav-content a{
+            /* float:left; */
+            color:black;
+            text-decoration:none;
+        }
+        .subnav:hover .subnav-content{
+            display:block;
+        }
+      
+
+    </style>
+</head>
+<body>
+    <h1>This is my navbar</h1><br><br>
+
+    <div  class="navbar">
+        <a href="">Home</a>
+        <div class="subnav" >
+            <button class="subnavbtn" >About  <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content" >
+               <div> <a href="">Me</a></div>
+               <div> <a href="">My Femily</a></div>
+                <div><a href="">My qualifications</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
